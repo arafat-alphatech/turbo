@@ -1,0 +1,68 @@
+footer{
+    padding: 20px;
+    margin: 30px 0 0 0;
+    text-align: center;
+    background-color: darkgrey;
+}
+
+.footer{
+    color: black;
+}
+
+.footer > a{
+    color: black;
+}
+
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.75);
+    opacity: 20%;
+    color: white;
+    padding: 20px;
+}
+
+a.no_underline{
+    text-decoration: none;
+    color: white;
+}
+
+.title{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial;
+    padding: 25px;
+}
+
+.content{
+    font-family: Georgia;
+    padding: 15px 30px;
+}
+
+.card{
+    margin-top: 30px;
+}
+
+
+@media (max-width: 544px) {  
+    .title{
+        font-size: 30px;
+    }
+
+    .content{
+        font-size: 15px;
+    }
+
+    .text-block{
+        position: absolute;
+        bottom: 5px;
+        background-color: rgba(0, 0, 0, 0.75);
+        opacity: 20%;
+        color: white;
+        padding: 5px;
+    }
+
+    .text-block a h5{
+        font-size: 20px;
+    }
+}
